@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/test1": {
+      "name": "/test1",
+      "lambdaFunction": "awsmultidevsetuppoc292dea2e",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

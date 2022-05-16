@@ -9,6 +9,11 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "awsmultidevsetuppoc292dea2e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "api": {
@@ -33,6 +38,20 @@
         {
           "category": "function",
           "resourceName": "awsmultidevsetuppoc7509d455",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    },
+    "api922f0fe1": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "awsmultidevsetuppoc292dea2e",
           "attributes": [
             "Name",
             "Arn"
