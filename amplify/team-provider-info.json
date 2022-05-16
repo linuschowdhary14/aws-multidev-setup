@@ -15,7 +15,13 @@
       "function": {
         "amplifyawsmultidevfn": {
           "deploymentBucketName": "amplify-awsmultidevsetuppoc-dev-171033-deployment",
-          "s3Key": "amplify-builds/amplifyawsmultidevfn-756c4d4c6668366b6548-build.zip"
+          "s3Key": "amplify-builds/amplifyawsmultidevfn-4d6d6c2f444e77566949-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dwgr36ywg1ac7",
+          "type": "cicd"
         }
       }
     }
