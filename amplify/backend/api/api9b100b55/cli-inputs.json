@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/address/{customerId}": {
+      "name": "/address/{customerId}",
+      "lambdaFunction": "awsmultidevsetuppoc7509d455",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
