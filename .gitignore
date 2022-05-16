@@ -28,6 +28,10 @@ amplify/.config/local-*
 amplify/logs
 amplify/mock-data
 amplify/backend/amplify-meta.json
+#--extra
+amplify/.config/local-aws-info.json
+amplify/team-provider-info.json
+#extra - ends
 amplify/backend/.temp
 build/
 dist/
@@ -42,3 +46,5 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+
+
