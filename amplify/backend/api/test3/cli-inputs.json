@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/test3": {
+      "name": "/test3",
+      "lambdaFunction": "test3Fn",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
