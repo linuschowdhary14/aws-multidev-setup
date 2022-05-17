@@ -7,6 +7,13 @@
       "permissions": {
         "setting": "open"
       }
+    },
+    "/test5-u1": {
+      "name": "/test5-u1",
+      "lambdaFunction": "tset5Fn",
+      "permissions": {
+        "setting": "open"
+      }
     }
   }
 }

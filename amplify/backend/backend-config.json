@@ -14,6 +14,11 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
+    },
+    "tset5Fn": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
     }
   },
   "api": {
@@ -24,6 +29,14 @@
         {
           "category": "function",
           "resourceName": "amplifyawsmultidevfn",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        },
+        {
+          "category": "function",
+          "resourceName": "tset5Fn",
           "attributes": [
             "Name",
             "Arn"
